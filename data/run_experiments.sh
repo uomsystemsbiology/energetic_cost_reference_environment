@@ -41,8 +41,8 @@ sleep 2
 ./Make 2>&1 | tee -a $log
 
 echo Opening PDF output | tee -a $log
-if [ ! -s $DISPLAY ]; then evince paper_notext.pdf
-else echo 'PDF generated at /home/sbl/gawseikam16/Examples/paper_notext.pdf'
+if [ ! -s $DISPLAY ]; then evince Figures.pdf
+else echo 'PDF generated at /home/sbl/gawseikam16/Examples/Figures.pdf'
 fi;
 
 echo Completed analysis | tee -a $log
