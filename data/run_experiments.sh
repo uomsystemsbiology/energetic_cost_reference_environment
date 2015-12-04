@@ -18,7 +18,7 @@ To learn more about reference environments,
 ### Instructions for use
 
 This shell script reproduces results described in the manuscript and writes 
-output to /home/sbl/gawcurcra15/Examples.
+output to /home/sbl/gawseikam16/Examples.
 
 ### Other links
 
@@ -34,7 +34,7 @@ output to /home/sbl/gawcurcra15/Examples.
 echo
 
 # Change to project directory
-cd /home/sbl/gawcurcra15/Examples
+cd /home/sbl/gawseikam16/Examples
 
 echo Executing makefile | tee -a $log
 sleep 2
@@ -42,7 +42,7 @@ sleep 2
 
 echo Opening PDF output | tee -a $log
 if [ ! -s $DISPLAY ]; then evince paper_notext.pdf
-else echo 'PDF generated at /home/sbl/gawcurcra15/Examples/paper_notext.pdf'
+else echo 'PDF generated at /home/sbl/gawseikam16/Examples/paper_notext.pdf'
 fi;
 
 echo Completed analysis | tee -a $log
